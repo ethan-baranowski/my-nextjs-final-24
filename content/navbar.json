@@ -1,0 +1,15 @@
+[
+	{
+		"url": "/#about",
+		"title": "About Me"
+		
+	},
+	{
+		"url": "/articles",
+		"title": "Blog"
+	},
+	{
+		"url": "/projects",
+		"title": "Projects"
+	}
+]

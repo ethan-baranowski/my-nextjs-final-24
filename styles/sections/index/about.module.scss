@@ -100,19 +100,19 @@
 			flex-shrink: 1;
 			position: relative;
 
-			img {
+			video {
 				height: 100%;
-				width: auto;
+				width: 100%;
 				aspect-ratio: 3/4;
-				object-fit: contain;
+				object-fit: cover;
 				border-radius: 2rem;
 			}
 
 			&.technicalSvg {
-				> span {
+				> video {
 					position: relative !important;
 					overflow: visible !important;
-					height: 100% !important;
+/* 					height: 100% !important; */
 					z-index: -1;	
 				}
 				img {    
@@ -136,8 +136,8 @@
 			.container {
 				padding: 2rem 1.25rem;
 			}
-
-			.image {
+//this was messing up the video element on mobile. I took it out and it put the element at the bottom of the page.
+/* 			.image {
 				padding: 1rem;
 				&.technicalSvg {
 					position: absolute;
@@ -147,7 +147,7 @@
 					height: 140%;
 					z-index: -1;
 				}
-			}
+			} */
 
 			.copy {
 				padding: 0;

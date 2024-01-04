@@ -30,7 +30,7 @@ export default function Technical() {
 				<SectionTitle
 					title="Technical"
 					preTitle="Hardskills"
-					subTitle="As a versatile IT professional, I excel in working with a diverse range of technologies and tools across multiple domains. From security and development to programming, I have gained extensive experience and exposure to various facets of the IT landscape"
+					subTitle="As a versatile IT professional, I excel in working with a diverse range of technologies and tools across multiple domains. From security and development to programming, I have gained extensive experience and exposure to various facets of the IT landscape."
 				/>
 				<section className={`${about.content} ${about.container}`}>
 					<div className={about.copy}>
@@ -62,8 +62,13 @@ export default function Technical() {
 							headerIcon={about.icon} 
 						/>							
 					</div>
-					<div className={`${about.image} ${about.technicalSvg}`}>
+{/* 					<div className={`${about.image} ${about.technicalSvg}`}>
 						<Image src="/img/dataism-24.svg" width={477} height={1111} alt="Data Strings 01 by Colorpong: https://ywft.us/2177b695b" />
+					</div> */}
+					<div className={`${about.image} ${about.technicalSvg}`}>
+						<video autoPlay loop muted playsInline>
+							<source src="/img/video2.mp4" type="video/mp4" />
+						</video>
 					</div>
 				</section>	
 			</Container>

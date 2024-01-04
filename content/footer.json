@@ -1,0 +1,44 @@
+{
+	"acknowledgments": [
+		{ 
+			"person": "",
+			"link": "",
+			"note": ""
+		},
+		{ 
+			"person": "",
+			"link": "",
+			"note": ""
+		},
+		{ 
+			"person": "",
+			"link": "",
+			"note": ""
+		},
+		{ 
+			"person": "",
+			"link": "",
+			"note": ""
+		}
+	],
+
+	"links": [
+		{ 
+			"person": "",
+			"link": "",
+			"note": ""
+		}
+	],
+
+	"social": [
+
+		{
+			"url": "https://www.linkedin.com/in/ethan-baranowski/",
+			"icon": "linkedin"
+		},
+		{
+			"url": "https://github.com/ethan-baranowski",
+			"icon": "github"
+		}
+	]
+}

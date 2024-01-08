@@ -8,7 +8,7 @@ export default function BadgesBlock({ title, subtitle, copy, list, fullContainer
 	return (
 		<div className={`${badges.badgeBlockContainer} ${containerClass}`}>
 			<span className={headerIcon}>
-				<Icon icon={[ 'fat', icon ]} />
+				<Icon icon={[ 'fal', icon ]} />
 			</span>
 			<h3>{title}</h3>
 			<h4>{subtitle}</h4>

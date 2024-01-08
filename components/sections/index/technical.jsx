@@ -36,8 +36,15 @@ export default function Technical() {
 					<div className={about.copy}>
 						<CopyBlock 
 							title="Multidisciplinary Expertise"
-							icon={[ 'fat', 'chart-network' ]}
+							icon={[ 'fal', 'network-wired' ]}
 							copy="With a strong foundation in design and development, I bring a unique perspective to every project. I stay up-to-date with the latest industry trends, constantly learning and evolving."
+							iconClass={about.icon}
+							containerClass={about.container}
+						/>
+						<CopyBlock 
+							title="Information Technology and Cybersecurity"
+							icon={[ 'fal', 'terminal' ]}
+							copy="Managing diverse IT systems, including Windows Server administration, Active Directory, and cloud-based solutions like Google Workspace. My expertise extends to security implementations, network troubleshooting, and efficient user support."
 							iconClass={about.icon}
 							containerClass={about.container}
 						/>
@@ -47,7 +54,7 @@ export default function Technical() {
 							list={software}
 							block="software" 
 							fullContainer="fullContainer"
-							icon="grid-2-plus"
+							icon="laptop-code"
 							containerClass={about.container}
 							headerIcon={about.icon} 
 						/>
@@ -57,19 +64,48 @@ export default function Technical() {
 							list={tech} 
 							block="tech"
 							fullContainer="fullContainer" 
-							icon="laptop-code"
+							icon="microchip"
 							containerClass={about.container}
 							headerIcon={about.icon} 
 						/>							
 					</div>
+{/* 					<div className={about.copy}>
+						<CopyBlock 
+							title="title"
+							icon={[ 'fat', 'chart-network' ]}
+							copy="text here"
+							iconClass={about.icon}
+							containerClass={about.container}
+						/>
+						<BadgesBlock 
+							title="title" 
+							copy="text here"
+							list={software}
+							block="software" 
+							fullContainer="fullContainer"
+							icon="grid-2-plus"
+							containerClass={about.container}
+							headerIcon={about.icon} 
+						/>
+						<BadgesBlock 
+							title="title" 
+							copy="text here"
+							list={tech} 
+							block="tech"
+							fullContainer="fullContainer" 
+							icon="laptop-code"
+							containerClass={about.container}
+							headerIcon={about.icon} 
+						/>							
+					</div> */}
 {/* 					<div className={`${about.image} ${about.technicalSvg}`}>
 						<Image src="/img/dataism-24.svg" width={477} height={1111} alt="Data Strings 01 by Colorpong: https://ywft.us/2177b695b" />
 					</div> */}
-					<div className={`${about.image} ${about.technicalSvg}`}>
+{/* 					<div className={`${about.image} ${about.technicalSvg}`}>
 						<video autoPlay loop muted playsInline>
 							<source src="/img/video2.mp4" type="video/mp4" />
 						</video>
-					</div>
+					</div> */}
 				</section>	
 			</Container>
 			{/* <SectionGridBg gridSize={4}/> */}

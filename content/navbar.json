@@ -1,7 +1,12 @@
 [
 	{
-		"url": "/#about",
-		"title": "About Me"
+		"url": "/resume",
+		"title": "Resume"
+		
+	},
+	{
+		"url": "/contact",
+		"title": "Contact Me"
 		
 	},
 	{

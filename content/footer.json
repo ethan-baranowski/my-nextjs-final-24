@@ -1,32 +1,32 @@
 {
 	"acknowledgments": [
 		{ 
-			"person": "",
+			"place": "Home",
 			"link": "",
 			"note": ""
 		},
 		{ 
-			"person": "",
-			"link": "",
+			"place": "Resume",
+			"link": "/resume",
 			"note": ""
 		},
 		{ 
-			"person": "",
-			"link": "",
+			"place": "Blog",
+			"link": "/articles",
 			"note": ""
 		},
 		{ 
-			"person": "",
-			"link": "",
+			"place": "Projects",
+			"link": "/projects",
 			"note": ""
 		}
 	],
 
 	"links": [
 		{ 
-			"person": "",
+			"person": "Ethan Baranowski",
 			"link": "",
-			"note": ""
+			"note": "note"
 		}
 	],
 

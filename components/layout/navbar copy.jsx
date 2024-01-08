@@ -8,8 +8,6 @@ import settings from '../../content/_settings.json'
 import content  from '../../content/navbar.json'
 import css from '../../styles/structure/navbar.module.scss'
 
-
-
 export default function Navbar() {
 
 	const router = useRouter()

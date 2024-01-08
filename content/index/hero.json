@@ -20,13 +20,18 @@
 	"buttons": {
 		"primary": {
 			"title": "Contact Me",
-			"url": "",
+			"url": "/contact",
 			"leaveSite": false
 		},
 		"secondary": {
 			"title": "LinkedIn",
 			"url": "",
 			"leaveSite": "true"
+		},
+		"third": {
+			"title": "Learn More",
+			"url": "/IT",
+			"leaveSite": "false"
 		}
 	}
 }

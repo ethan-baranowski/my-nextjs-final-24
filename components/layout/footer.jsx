@@ -35,10 +35,10 @@ export default function Footer() {
 					<ul className={css.thanks}>
 						<li><h4>Navigation</h4></li>
 						{
-						content.acknowledgments.map( ({ person, link, note }, index) => {
+						content.acknowledgments.map( ({ place, link, note }, index) => {
 							return (
 								<li key={index}>
-									<a href={link} rel="noreferrer" target="_blank">{person} <Icon icon={[ 'fad', 'arrow-up-right-from-square' ]} /></a>
+									<a href={link} rel="noreferrer" target="_blank">{place}</a>
 									<p>{note}</p>
 								</li>
 							)
@@ -51,7 +51,7 @@ export default function Footer() {
 						content.links.map( ({ person, link, note }, index) => {
 							return (
 								<li key={index}>
-									<a href={link} rel="noreferrer" target="_blank">{person} <Icon icon={[ 'fad', 'arrow-up-right-from-square' ]} /></a>
+									<a href={link} rel="noreferrer" target="_blank">{person} {/* <Icon icon={[ 'fad', 'arrow-up-right-from-square' ]} /> */}</a>
 									<p>{note}</p>
 								</li>
 							)

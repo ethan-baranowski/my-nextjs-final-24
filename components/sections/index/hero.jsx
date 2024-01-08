@@ -14,6 +14,7 @@ import hero 		from '../../../styles/sections/index/hero.module.scss';
 import button 		from '../../../styles/blocks/button.module.scss';
 
 import content		from '../../../content/index/hero.json'
+import { useRouter } from 'next/router';
 
 
 /**
@@ -29,6 +30,10 @@ import content		from '../../../content/index/hero.json'
 export default function Hero() {
 
 	const [typingStatus, setTypingStatus] = useState('Initializing');
+	const router = useRouter();
+	const handleClick = () => {
+		router.push('/contact');
+	};
 
 	return (
 		<Section classProp={`${hero.section}`}>
@@ -64,10 +69,9 @@ export default function Hero() {
 					</p>					
 				</section>
 				<section>
-					<button	className={`button ${button.primary}`}
-							onClick={ () => window.location = 'mailto:' } >
-						{content.buttons.primary.title}
-					</button>
+				<button className={`button ${button.primary}`} onClick={handleClick}>
+							{content.buttons.primary.title}
+						</button>
 					<button className={`button ${button.secondary} leaveSite`}
 							onClick={ ()=> window.open("https://www.linkedin.com/in/ethan-baranowski/", "_blank") } >
 						{content.buttons.secondary.title}

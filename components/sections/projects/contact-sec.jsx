@@ -49,7 +49,7 @@ export default function Layout() {
 					</div>
 					<form action="#" method="POST" className="mx-auto mt-16 max-w-xl sm:mt-20">
 						<div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
-							<div style={{ border: '1px solid white', padding: '.5rem', borderRadius: '0.5rem' }}>
+							{/* <div style={{ border: '1px solid white', padding: '.5rem', borderRadius: '0.5rem' }}>
 								<div>
 									<label htmlFor="first_name" className="block text-sm font-medium text-gray-700">First name: <input type="text" name="first_name" id="first_name" autoComplete="given-name" className=" text-gray-900 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:ring-pink-500 focus:border-pink-500"/></label>
 								</div>
@@ -90,7 +90,7 @@ export default function Layout() {
 									defaultValue={''}
 								/>
 								</div>
-							</div>
+							</div> */}
 						</div>
 						<Switch.Group as="div" className="flex gap-x-4 sm:col-span-2">
 							<div className="flex h-6 items-center">
@@ -125,7 +125,7 @@ export default function Layout() {
 									type="submit"
 									className="block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
 								>
-									Let's talk
+									Button
 								</button>
 							</div>
 					</form>

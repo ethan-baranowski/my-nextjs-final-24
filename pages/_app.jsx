@@ -25,6 +25,9 @@ import '../node_modules/devicon/devicon.min.css'
 import '../styles/css/variables.css'
 import '../styles/css/global.css'
 
+//import for tailwindcss
+import 'tailwindcss/tailwind.css'
+
 /**
  * _app.jsx
  *

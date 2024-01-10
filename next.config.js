@@ -1,11 +1,40 @@
 module.exports = {
 	reactStrictMode: true,
 	env: {
-	  // Add your custom environment variables here
+		dir: '/',
 	},
 	images: {
-	  domains: [
-		// Add the domains of your external images here
-	  ],
+		remotePatterns: [
+			{
+				protocol: 'https',
+				hostname: '**.vercel.app',
+				pathname: '/api/**'
+			},
+			{
+				protocol: 'https',
+				hostname: '**.vercel.app',
+				pathname: '?app=portfolio-theme-jqe0jhmif-atlamors.vercel.app'
+			},
+			{
+				protocol: 'https',
+				hostname: '**.shields.io',
+				pathname: '/badge/**'
+			},
+			{
+				protocol: 'https',
+				hostname: '**.shields.io',
+				pathname: '/github/**'
+			},
+			{
+				protocol: 'https',
+				hostname: '**.githubusercontent.com',
+				pathname: '/**'
+			},
+			{
+				protocol: 'https',
+				hostname: '**.medium.com',
+				pathname: '/**'
+			},
+		],
 	},
-  }
+}

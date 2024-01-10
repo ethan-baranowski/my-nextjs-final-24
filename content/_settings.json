@@ -3,11 +3,13 @@
 	"logo": "",
 	
 	"username": {
-		"github": "",
-		"medium": ""
+		"github": "ethan-baranowski",
+		"medium": "@--andrewnelson"
 	},
 
 	"portfolio": { 
-
+		"forkthis": "",
+		"repo_html": "",
+		"repo_api": ""
 	}
 }
